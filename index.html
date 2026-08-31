@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUPPSA - Rusangu University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="rupssalogotransparente.png" type="image/x-icon">
+<base target="_blank">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo">
+            <img src="ruppsalogo.png" alt="RUPSSA Logo" class="logo-image">
+            <span data-pt="Rusangu University" data-en="Rusangu University">Rusangu University</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" data-pt="Início" data-en="Home">Início</a></li>
+            <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+            <li><a href="#news" data-pt="Notícias" data-en="News">Notícias</a></li>
+            <li><a href="#gallery" data-pt="Galeria" data-en="Gallery">Galeria</a></li>
+            <li><a href="#contact" data-pt="Contacto" data-en="Contact">Contacto</a></li>
+        </ul>
+        <button class="lang-toggle" id="langToggle" onclick="toggleLanguage()">
+            <i class="fas fa-globe"></i>
+            <span id="langText">PT</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-flags">
+                <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/276b31192d0943aa1146228336dde3d213895f06.png" alt="Angola" class="hero-flag">
+                <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/92e5431bc3deb748b7344735a5af18a8059249f1.jpg" alt="Mozambique" class="hero-flag">
+            </div>
+            <h1>
+                <span data-pt="Associação dos Estudantes de Fala de Língua Portuguesa no Rusangu" data-en="Rusangu Portuguese-Speaking Students Association">Associação dos Estudantes de Fala de Língua Portuguesa</span>
+                <span>Rusangu University</span>
+            </h1>
+            <p data-pt="Unindo estudantes de Angola e Moçambique numa comunidade vibrante de cultura, aprendizagem e crescimento." data-en="Uniting students from Angola and Mozambique in a vibrant community of culture, learning, and growth.">Unindo estudantes de Angola e Moçambique numa comunidade vibrante de cultura, aprendizagem e crescimento.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">
+                    <i class="fas fa-users"></i>
+                    <span data-pt="Conheça-nos" data-en="Meet Us">Conheça-nos</span>
+                </a>
+                <a href="#news" class="btn btn-outline">
+                    <i class="fas fa-newspaper"></i>
+                    <span data-pt="Últimas Notícias" data-en="Latest News">Últimas Notícias</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path fill="#f8f5f6" d="M0,60 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="section-header fade-in">
+            <h2 data-pt="Sobre Nós" data-en="About Us">Sobre Nós</h2>
+            <p data-pt="A nossa história, missão e valores" data-en="Our story, mission, and values">A nossa história, missão e valores</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image fade-in">
+                <img src="pessoalrupssa1.jpg">
+            </div>
+            <div class="about-content fade-in">
+                <h3 data-pt="Uma Comunidade de Língua Portuguesa" data-en="A Portuguese-Speaking Community">Uma Comunidade de Língua Portuguesa</h3>
+                <p data-pt="A Associação dos Estudantes de Fala de Língua Portuguesa (RUPSSA) na Rusangu University é uma comunidade vibrante e acolhedora dedicada a representar e apoiar os estudantes de língua portuguesa. A nossa associação reúne principalmente estudantes provenientes de Angola e Moçambique, criando um espaço onde a cultura, a língua e a herança partilhadas florescem." data-en="The Portuguese-Speaking Students Association (RUPSSA) at Rusangu University is a vibrant and welcoming community dedicated to representing and supporting Portuguese-speaking students. Our association brings together primarily students from Angola and Mozambique, creating a space where shared culture, language, and heritage flourish.">A Associação dos Estudantes de Fala de Língua Portuguesa (RUPSSA) na Rusangu University é uma comunidade vibrante e acolhedora dedicada a representar e apoiar os estudantes de língua portuguesa. A nossa associação reúne principalmente estudantes provenientes de Angola e Moçambique, criando um espaço onde a cultura, a língua e a herança partilhadas florescem.</p>
+                <p data-pt="Nosso objetivo é promover a integração académica e social, celebrar as nossas tradições culturais e fornecer uma rede de apoio mútuo para todos os membros. Juntos, construímos pontes entre as nossas nações e a comunidade universitária mais ampla." data-en="Our goal is to promote academic and social integration, celebrate our cultural traditions, and provide a mutual support network for all members. Together, we build bridges between our nations and the wider university community.">Nosso objetivo é promover a integração académica e social, celebrar as nossas tradições culturais e fornecer uma rede de apoio mútuo para todos os membros. Juntos, construímos pontes entre as nossas nações e a comunidade universitária mais ampla.</p>
+
+                <div class="about-flags">
+                    <div class="about-flag-card">
+                        <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/276b31192d0943aa1146228336dde3d213895f06.png" alt="Angola">
+                        <span>Angola</span>
+                    </div>
+                    <div class="about-flag-card">
+                        <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/92e5431bc3deb748b7344735a5af18a8059249f1.jpg" alt="Mozambique">
+                        <span>Moçambique</span>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h4>50+</h4>
+                        <p data-pt="Membros" data-en="Members">Membros</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>2</h4>
+                        <p data-pt="Países" data-en="Countries">Países</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>5+</h4>
+                        <p data-pt="Anos de Atividade" data-en="Years Active">Anos de Atividade</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-more fade-in">
+            <a href="pessoal.html" class="btn btn-primary" aria-label="Conhecer o pessoal da RUPSSA">
+                <i class="fas fa-users"></i>
+                <span data-pt="Conheça o nosso pessoal" data-en="Meet our team">Conheça o nosso pessoal</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news">
+        <div class="section-header fade-in">
+            <h2 data-pt="Notícias & Anúncios" data-en="News & Announcements">Notícias & Anúncios</h2>
+            <p data-pt="Fique atualizado com as últimas novidades da nossa associação" data-en="Stay updated with the latest news from our association">Fique atualizado com as últimas novidades da nossa associação</p>
+        </div>
+        <div class="news-grid">
+            <article class="news-card fade-in">
+                <div class="news-image">
+                    <i class="fas fa-flag"></i>
+                    <span class="news-badge">Diplomacia</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-calendar"></i>
+                        <span>14 de novembro de 2025</span>
+                    </div>
+                    <h3>50.º aniversário da Independência de Angola</h3>
+                    <p>A nossa associação foi representada pelo Presidente, Secretário e uma membro da comunidade na residência do Embaixador da República de Angola na Zâmbia, Albino Malungo, nas celebrações do 50.º aniversário da independência de Angola. Foi uma ocasião solene e de grande distinção. Expressamos os nossos sinceros agradecimentos à Embaixada de Angola na Zâmbia.</p>
+                </div>
+            </article>
+
+            <article class="news-card fade-in">
+                <div class="news-image">
+                    <i class="fas fa-users"></i>
+                    <span class="news-badge">Juventude</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-calendar"></i>
+                        <span>Dia 26</span>
+                    </div>
+                    <h3>Participação no seminário “Angola e os desafios da juventude”</h3>
+                    <p>Após a campanha de doação realizada no domingo, dia 26, marcámos presença no seminário da Comunidade Juvenil Angolana na Zâmbia, em Lusaka. Representados pelo presidente Pedro Jucundila, partilhámos os avanços da associação e solicitámos uma visita da Embaixada. O Embaixador Albino Malungo destacou o papel da juventude no desenvolvimento de Angola, enquanto Cumbi Junior, presidente da ANJE, incentivou-nos a rejeitar narrativas negativas sobre o mercado de emprego.</p>
+                </div>
+            </article>
+
+            <article class="news-card fade-in">
+                <div class="news-image">
+                    <i class="fas fa-handshake"></i>
+                    <span class="news-badge">Representação</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-calendar"></i>
+                        <span>20 e 21 de maio de 2026</span>
+                    </div>
+                    <h3>Diálogo com as Embaixadas de Angola e Moçambique</h3>
+                    <p>No evento realizado na Embaixada de Angola, no Hotel Asmara, em Lusaka, o presidente Pedro Jucundila e o secretário Cesár Tunguta participaram numa consulta com deputados, líderes comunitários e universitários. Foi um espaço para apresentar preocupações, desafios e anseios. No dia seguinte, participaram também numa reunião com o Primeiro-Secretário da Alta Comissão de Moçambique com o mesmo propósito.</p>
+                </div>
+            </article>
+            <article class="news-card fade-in">
+                <div class="news-image">
+                    <i class="fas fa-university"></i>
+                    <span class="news-badge">Histórico</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-calendar"></i>
+                        <span>20 de agosto de 2026</span>
+                    </div>
+                    <h3>Visita da Embaixada de Angola à Universidade do Rusangu</h3>
+                    <p>Tivemos a honra de receber a Embaixada da República de Angola em Lusaka na Universidade do Rusangu. Numa reunião de escuta, os estudantes angolanos e a comunidade de língua portuguesa apresentaram as suas inquietações, desafios e preocupações. A Embaixada reuniu igualmente com a Administração da Universidade, reforçando os laços de cooperação entre as instituições. RUPSSA presente. Comunidade unida. Voz dos estudantes ouvida.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+        <div class="section-header fade-in">
+            <h2 data-pt="Galeria de Fotos" data-en="Photo Gallery">Galeria de Fotos</h2>
+            <p data-pt="Momentos especiais das nossas atividades e eventos" data-en="Special moments from our activities and events">Momentos especiais das nossas atividades e eventos</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in">
+                <img src="Angola.jpg" alt="Sabatth">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Dia da Independência de Angola" data-en="Angola Independence Day">Dia da Independência de Angola</h4>
+                    <p data-pt="Celebração de 2025" data-en="2025 Celebration">Celebração de 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="WhatsApp Image 2026-08-29 at 21.38.08.jpeg" alt="Event">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Encontro de Estudantes" data-en="Student Gathering">Encontro de Estudantes</h4>
+                    <p data-pt="Dia de Sabado" data-en="Semester meeting">Sabbath</p>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="embaixadaangolana2026/everybody.jpeg" alt="Event">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Embaixada Angolana" data-en="Angolan Embassy">Visita da embaixada Angolana</h4>
+                    <p data-pt="Workshop de desenvolvimento pessoal" data-en="Personal development workshop">Visita da embaixada Angolana</p>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="embaixadaangolana2026/capelao.jpeg" alt="Event">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Pastor Eduardo Figura" data-en="Pastor Eduado Figura">Capelão</h4>
+                    <p data-pt="Capelão" data-en="Capelão">Noite de talentos 2025</p>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="embaixadaangolana2026/Angolanvoice.jpeg" alt="Event">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Jantar de Solidariedade" data-en="Solidarity Dinner">Jantar de Solidariedade</h4>
+                    <p data-pt="Evento de angariação de fundos" data-en="Fundraising event">Grupo Angolan voice</p>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="embaixadaangolana2026/visitadaembaixada.jpeg" alt="Event">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                    <h4 data-pt="Desportos Inter-Associações" data-en="Inter-Association Sports">Angola</h4>
+                    <p data-pt="Angolanos" data-en="Angolan">Visita da embaixada</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-more fade-in">
+            <a href="gallery.html" class="btn btn-primary" aria-label="Ver mais fotos na galeria">
+                <i class="fas fa-images"></i>
+                <span>Ver mais</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon">AEFLP</div>
+                    <div class="logo-text">
+                        AEFLP<br>
+                        <span>Rusangu University</span>
+                    </div>
+                </a>
+                <p data-pt="Unindo estudantes de Angola e Moçambique na Rusangu University através da cultura, educação e comunidade." data-en="Uniting students from Angola and Mozambique at Rusangu University through culture, education, and community.">Unindo estudantes de Angola e Moçambique na Rusangu University através da cultura, educação e comunidade.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 data-pt="Links Rápidos" data-en="Quick Links">Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home" data-pt="Início" data-en="Home">Início</a></li>
+                    <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+                    <li><a href="#news" data-pt="Notícias" data-en="News">Notícias</a></li>
+                    <li><a href="#gallery" data-pt="Galeria" data-en="Gallery">Galeria</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 data-pt="Recursos" data-en="Resources">Recursos</h4>
+                <ul>
+                    <li><a href="#" data-pt="Calendário Académico" data-en="Academic Calendar">Calendário Académico</a></li>
+                    <li><a href="#" data-pt="Bolsas de Estudo" data-en="Scholarships">Bolsas de Estudo</a></li>
+                    <li><a href="#" data-pt="Apoio ao Estudante" data-en="Student Support">Apoio ao Estudante</a></li>
+                    <li><a href="#" data-pt="Documentos" data-en="Documents">Documentos</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 data-pt="Contacto" data-en="Contact">Contacto</h4>
+                <ul>
+                    <li><a href="mailto:aeflp@rusangu.ac.zm"><i class="fas fa-envelope"></i> aeflp@rusangu.ac.zm</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Rusangu University, Zâmbia</a></li>
+                    <li><a href="tel:+260773313068"><i class="fas fa-phone"></i> +260 773 313 068</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 RUPSSA - Rusangu University. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+            <div class="footer-flags">
+                <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/276b31192d0943aa1146228336dde3d213895f06.png" alt="Angola">
+                <img src="https://kimi-web-img.kimi.ai/img/www.flagcolorcodes.com/92e5431bc3deb748b7344735a5af18a8059249f1.jpg" alt="Mozambique">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ===== LANGUAGE TOGGLE =====
+        let currentLang = 'pt';
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'pt' ? 'en' : 'pt';
+            document.getElementById('langText').textContent = currentLang.toUpperCase();
+
+            // Update all elements with data-pt and data-en attributes
+            document.querySelectorAll('[data-pt][data-en]').forEach(el => {
+                // Add fade effect
+                el.style.opacity = '0';
+                setTimeout(() => {
+                    el.textContent = el.getAttribute('data-' + currentLang);
+                    el.style.opacity = '1';
+                }, 150);
+            });
+
+            // Update HTML lang attribute
+            document.documentElement.lang = currentLang;
+        }
+
+        // ===== MOBILE MENU =====
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+
+        // ===== NAVBAR SCROLL EFFECT =====
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('navLinks').classList.remove('active');
+                }
+            });
+        });
+
+        // ===== SCROLL ANIMATIONS =====
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // ===== GALLERY LIGHTBOX (Simple) =====
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const img = this.querySelector('img');
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    top: 0; left: 0; right: 0; bottom: 0;
+                    background: rgba(0,0,0,0.9);
+                    z-index: 9999;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    cursor: pointer;
+                    animation: fadeIn 0.3s ease;
+                `;
+                overlay.innerHTML = `<img src="${img.src}" style="max-width:90%;max-height:90%;border-radius:12px;box-shadow:0 20px60px rgba(0,0,0,0.5);">`;
+                overlay.addEventListener('click', () => overlay.remove());
+                document.body.appendChild(overlay);
+            });
+        });
+    </script>
+</body>
+</html>
