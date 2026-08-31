@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ficheiros temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Ficheiros de editores
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Variáveis de ambiente e informações sensíveis
+.env
+.env.*
+!.env.example
+
+# Ficheiros de sistema
+Thumbs.db
+Desktop.ini
